@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente4
 Feature:
 
   Scenario: T-API-PQBP-636-CA4- Crear un personaje duplicado

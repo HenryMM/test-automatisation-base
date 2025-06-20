@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente2
 Feature:
 
   Scenario: T-API-PQBP-636-CA2- Actualizar personaje que no existe y verificar respuesta

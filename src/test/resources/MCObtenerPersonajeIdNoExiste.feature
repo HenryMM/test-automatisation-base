@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente9
 Feature:
 
   Scenario: T-API-PQBP-636-CA9- Obtener personaje que no existe

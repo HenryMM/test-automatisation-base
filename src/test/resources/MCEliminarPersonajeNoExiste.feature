@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente7
 Feature:
 
   Scenario: T-API-PQBP-636-CA7- Eliminar personaje que no existe

@@ -6,7 +6,8 @@ class KarateBasicTest {
     }
     @Karate.Test
     Karate testBasic() {
-        return Karate.run("classpath:MCObtenerPersonajeIdNoExiste.feature");
+        //return Karate.run("classpath:MCObtenerPersonajeIdNoExiste.feature");
+        return Karate.run("classpath:resources");
     }
 
 }

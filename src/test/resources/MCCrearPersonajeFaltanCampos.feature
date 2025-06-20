@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente5
 Feature:
 
   Scenario: T-API-PQBP-636-CA5- Crear un personaje faltan campos

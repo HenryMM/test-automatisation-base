@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente8
 Feature:
 
   Scenario: T-API-PQBP-636-CA18- Obtener personaje con ID 28 y verificar contenido

@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente10
 Feature:
 
   Scenario: T-API-PQBP-636-CA10 - Obtener personajes y verificar el status 200

@@ -1,3 +1,4 @@
+@REQ_PQBP-636 @agente3
 Feature:
 
   Scenario: T-API-PQBP-636-CA3- Crear un personaje y verificar el status 201
