@@ -1,6 +1,7 @@
 @REQ_PQBP-636 @agente3
 Feature:
 
+  @id:1 @marvel @crear
   Scenario: T-API-PQBP-636-CA3- Crear un personaje y verificar el status 201
     * def randomName = 'Nombre de prueba - ' + karate.uuid()
     Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/testuser/api/characters'

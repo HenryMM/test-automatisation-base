@@ -1,6 +1,7 @@
 @REQ_PQBP-636 @agente8
 Feature:
 
+  @id:1 @marvel @obtener
   Scenario: T-API-PQBP-636-CA18- Obtener personaje con ID 28 y verificar contenido
     Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/testuser/api/characters/1220'
     When method GET

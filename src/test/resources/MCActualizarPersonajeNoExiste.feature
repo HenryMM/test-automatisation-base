@@ -1,6 +1,7 @@
 @REQ_PQBP-636 @agente2
 Feature:
 
+  @id:1 @marvel @actualizar
   Scenario: T-API-PQBP-636-CA2- Actualizar personaje que no existe y verificar respuesta
     Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/testuser/api/characters/9000'
     And request { "name": "Iron Man", "alterego": "Tony Stark", "description": "Updated description", "powers": ["Armor", "Flight"] }

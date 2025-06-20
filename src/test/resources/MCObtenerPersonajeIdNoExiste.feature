@@ -1,6 +1,7 @@
 @REQ_PQBP-636 @agente9
 Feature:
 
+  @id:1 @marvel @obtener
   Scenario: T-API-PQBP-636-CA9- Obtener personaje que no existe
     Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/testuser/api/characters/5000'
     When method GET
