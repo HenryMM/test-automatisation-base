@@ -1,6 +1,6 @@
 Feature:
 
-  Scenario: T-API-PQBP-636-CA9- Obtener personaje con ID 28 y verificar contenido
+  Scenario: T-API-PQBP-636-CA9- Obtener personaje que no existe
     Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/testuser/api/characters/5000'
     When method GET
     Then status 404

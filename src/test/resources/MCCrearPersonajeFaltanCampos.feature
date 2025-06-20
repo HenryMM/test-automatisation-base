@@ -1,6 +1,6 @@
 Feature:
 
-  Scenario: T-API-PQBP-636-CA5- Crear un personaje y verificar el status 201
+  Scenario: T-API-PQBP-636-CA5- Crear un personaje faltan campos
     Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/testuser/api/characters'
     And request { "name": "", "alterego": "", "description": "", "powers": [] }
     When method POST
